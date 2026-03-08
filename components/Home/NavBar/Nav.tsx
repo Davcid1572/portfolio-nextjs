@@ -5,8 +5,9 @@ import { Navlinks } from "@/Constant/Constant";
 import { Download, MenuIcon } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { navProps } from "@/interface";
 
-const Nav = () => {
+const Nav: React.FC<navProps> = ({ openNav }) => {
   const [navBg, setNavBg] = useState(false);
 
   useEffect(() => {
@@ -31,12 +32,10 @@ const Nav = () => {
         <nav className="hidden lg:flex items-center space-x-10">
           {Navlinks.map((link, index) => {
             return (
-              <Link
-                key={index}
-                href={link.href}
-                className="font-semibold text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-200 transition-all duration-200"
-              >
-                {link.name}
+              <Link key={index} href={link.href}>
+                <p className="font-semibold text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-200 transition-all duration-200">
+                  {link.name}
+                </p>
               </Link>
             );
           })}
@@ -60,7 +59,10 @@ const Nav = () => {
 
           {/* HAMBURDER ICON */}
 
-          <MenuIcon className="h-8 w-8 cursor-pointer text-black dark:text-white lg:hidden " />
+          <MenuIcon
+            onClick={openNav}
+            className="h-8 w-8 cursor-pointer text-black dark:text-white lg:hidden "
+          />
         </div>
       </div>
     </div>
