@@ -26,7 +26,7 @@ const ThemeToggler = () => {
       {currentTheme === "dark" ? (
         <Sun className="text-white w-7 h-7 cursor-pointer" />
       ) : (
-        <Moon className="text-white w-7 h-7 cursor-pointer" />
+        <Moon className="text-black w-7 h-7 cursor-pointer" />
       )}
     </button>
   );
