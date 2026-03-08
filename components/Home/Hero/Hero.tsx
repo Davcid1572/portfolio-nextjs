@@ -37,7 +37,7 @@ const Hero = () => {
             wrapper="span"
             speed={50}
             repeat={Infinity}
-            className="font"
+            className="font-mono"
           />
         </div>
         <p className="text-lg text-muted-foreground dark:text-gray-200 max-w-2xl mx-auto mb-10">
