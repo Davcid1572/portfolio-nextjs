@@ -22,17 +22,17 @@ import {
 import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
 
 export const stats = [
-  { label: "Years Experience", value: "5+" },
-  { label: "Projects Completed", value: "50+" },
-  { label: "Happy Clients", value: "30+" },
-  { label: "Students Taught", value: "1000+" },
+  { label: "Years Experience", value: "2+" },
+  { label: "Projects Completed", value: "10+" },
+  { label: "Happy Clients", value: "10+" },
+  // { label: "Students Taught", value: "1000+" },
 ];
 
 export const highlights = [
-  { icon: MapPin, text: "Based in San Francisco, CA" },
-  { icon: Briefcase, text: "Open for freelance work" },
-  { icon: GraduationCap, text: "CS Graduate from Stanford" },
-  { icon: Coffee, text: "Powered by coffee & curiosity" },
+  { icon: MapPin, text: "Based in Lagos, NIG" },
+  { icon: Briefcase, text: "Open for work" },
+  { icon: GraduationCap, text: "Computer Engineering Graduate from NAU" },
+  // { icon: Coffee, text: "Powered by coffee & curiosity" },
 ];
 
 export const userReviewData = [
