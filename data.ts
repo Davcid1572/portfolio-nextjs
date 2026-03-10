@@ -218,7 +218,6 @@ export const skillCategories = [
       { name: "TypeScript", icon: Terminal },
       { name: "Tailwind CSS", icon: Palette },
       { name: "React Native", icon: Smartphone },
-      { name: "Vue.js", icon: Layout },
     ],
   },
   {
@@ -227,7 +226,6 @@ export const skillCategories = [
       { name: "Node.js", icon: Server },
       { name: "Express", icon: Layers },
       { name: "MongoDB", icon: Database },
-      { name: "PostgreSQL", icon: Database },
       { name: "GraphQL", icon: Cpu },
       { name: "REST APIs", icon: Cloud },
     ],
@@ -237,10 +235,8 @@ export const skillCategories = [
     skills: [
       { name: "Git", icon: GitBranch },
       { name: "Docker", icon: Server },
-      { name: "AWS", icon: Cloud },
       { name: "Linux", icon: Terminal },
       { name: "Figma", icon: Palette },
-      { name: "CI/CD", icon: Cpu },
     ],
   },
 ];
