@@ -21,7 +21,7 @@ const ClientCard: React.FC<UserProps> = ({
         <FaStar className="w-4 h-4 text-yellow-600 dark:text-yellow-300" />
         <FaStar className="w-4 h-4 text-yellow-600 dark:text-yellow-300" />
       </div>
-      <div className="mt-6 text-base text-gray-600 dark:bg-gray-300 font-semibold line-clamp-3">
+      <div className="mt-6 text-base text-gray-600 dark:text-gray-300 font-semibold line-clamp-3">
         {review}
       </div>
       <div className="w-full h-[1.2px] bg-gray-300 opacity-10 mt-6 mb-6"></div>
