@@ -99,48 +99,53 @@ export const socialLinks = [
 
 export const experiences = [
   {
-    type: "work",
-    title: "Senior Full-Stack Developer",
-    company: "TechCorp Inc.",
-    period: "2022 - Present",
+    type: "Education",
+    title: "ProDev FrontEnd Engineer",
+    company: "Alx Africa",
+    period: "2025 - 2026",
     description:
       "Leading development of enterprise SaaS products. Mentoring junior developers and implementing best practices.",
-    technologies: ["React", "Node.js", "AWS", "TypeScript"],
+    technologies: ["React", "Node.js", "NextJs", "TypeScript", "React Native"],
   },
-  {
-    type: "work",
-    title: "Full-Stack Developer",
-    company: "StartupXYZ",
-    period: "2020 - 2022",
-    description:
-      "Built and maintained multiple web applications. Collaborated with design team to implement responsive UIs.",
-    technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
-  },
+  // {
+  //   type: "work",
+  //   title: "Full-Stack Developer",
+  //   company: "StartupXYZ",
+  //   period: "2020 - 2022",
+  //   description:
+  //     "Built and maintained multiple web applications. Collaborated with design team to implement responsive UIs.",
+  //   technologies: ["Vue.js", "Python", "PostgreSQL", "Docker"],
+  // },
   {
     type: "education",
-    title: "Master of Computer Science",
-    company: "Stanford University",
-    period: "2018 - 2020",
+    title: "Front End Developer Intern",
+    company: "Dive Africa",
+    period: "2025",
     description:
       "Specialized in distributed systems and machine learning. Thesis on scalable microservices architecture.",
-    technologies: ["Research", "AI/ML", "Distributed Systems"],
+    technologies: ["HTML", "CSS", "REACT", "JavaScript"],
   },
   {
     type: "work",
-    title: "Junior Developer",
-    company: "WebAgency Co.",
-    period: "2018 - 2020",
+    title: "Assistant Lecturer",
+    company: "Airforce Institute of Technology",
+    period: "2021 - 2022",
     description:
-      "Developed client websites and e-commerce platforms. Gained experience in agile methodologies.",
-    technologies: ["JavaScript", "PHP", "MySQL", "WordPress"],
+      "Taught undergraduate courses in web development and database systems. Developed curriculum and assessments.",
+    technologies: [
+      "JavaScript",
+      "MySQL",
+      "Mentoring",
+      "Curriculum Development",
+    ],
   },
   {
     type: "education",
-    title: "Bachelor of Computer Science",
-    company: "UC Berkeley",
-    period: "2014 - 2018",
+    title: "Bachelor of Engineering",
+    company: "Nnamdi Azikiwe University",
+    period: "2014 - 2019",
     description:
-      "Strong foundation in algorithms, data structures, and software engineering principles.",
+      "Strong foundation in system design, data structures, and software engineering principles.",
     technologies: ["Computer Science", "Mathematics", "Problem Solving"],
   },
 ];

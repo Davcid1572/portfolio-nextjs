@@ -19,3 +19,12 @@ export interface skillProps {
   name: string;
   Icon: LucideIcon;
 }
+
+export interface projectCardProps {
+  title: string;
+  description: string;
+  image: string;
+  techStack: string[];
+  demoUrl?: string;
+  githubUrl: string;
+}
