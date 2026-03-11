@@ -28,3 +28,11 @@ export interface projectCardProps {
   demoUrl?: string;
   githubUrl: string;
 }
+
+export interface UserProps {
+  id: number;
+  name: string;
+  profession: string;
+  userImage: string;
+  review: string;
+}
