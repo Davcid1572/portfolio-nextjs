@@ -47,9 +47,9 @@ const Hero = () => {
         </p>
         {/* social media icons */}
         <div className="flex justify-center gap-4 mb-10">
-          {socialLinks.map((link) => {
+          {socialLinks.map((link, index) => {
             return (
-              <a href={link.href} target="_blank">
+              <a href={link.href} target="_blank" key={index}>
                 <link.icon className="w-6 h-6 hover:scale-90 transition-all duration-300" />
               </a>
             );
