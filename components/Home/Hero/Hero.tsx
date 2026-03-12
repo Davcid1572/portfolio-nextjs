@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Download, FolderOpen } from "lucide-react";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import { socialLinks } from "@/data";
 
 const Hero = () => {
   return (
@@ -44,6 +45,16 @@ const Hero = () => {
           I build exceptional digital experiences that are fast, accessible, and
           visually appealing.
         </p>
+        {/* social media icons */}
+        <div className="flex justify-center gap-4 mb-10">
+          {socialLinks.map((link) => {
+            return (
+              <a href={link.href} target="_blank">
+                <link.icon className="w-6 h-6 hover:scale-90 transition-all duration-300" />
+              </a>
+            );
+          })}
+        </div>
         {/* buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size={"lg"} asChild className="w-fit mx-auto sm:mx-0">
