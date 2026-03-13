@@ -14,7 +14,12 @@ const About = () => {
       />
       <div className="grid w-[80%] mx-auto lg:grid-cols-2 gap-12 items-center">
         {/* image */}
-        <div className="relative">
+        <div
+          data-aos="fade-right"
+          data-aos-delay="0"
+          data-aos-anchor-placement="top-center"
+          className="relative"
+        >
           <div className="aspect-square bg-gray-500 rounded-2xl overflow-hidden p-2 hover:shadow-2xl">
             <Image
               src={"/images/homeimg.png"}
@@ -26,7 +31,12 @@ const About = () => {
           </div>
         </div>
         {/* content */}
-        <div className="space-y-6">
+        <div
+          data-aos="fade-left"
+          data-aos-delay="150"
+          data-aos-anchor-placement="top-center"
+          className="space-y-6"
+        >
           <h3 className="text-2xl font-semibold">
             Frontend/AI-focused Software Engineer passionate about building
             fast, accessible, and user-friendly web applications.
@@ -63,6 +73,9 @@ const About = () => {
           {stats.map((stat) => {
             return (
               <div
+                data-aos="zoom-in"
+                data-aos-delay="300"
+                data-aos-anchor-placement="top-center"
                 key={stat.label}
                 className="bg-white dark:bg-gray-800 shadow rounded-xl p-6 text-center"
               >

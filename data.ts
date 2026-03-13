@@ -104,7 +104,7 @@ export const experiences = [
     company: "Alx Africa",
     period: "2025 - 2026",
     description:
-      "Leading development of enterprise SaaS products. Mentoring junior developers and implementing best practices.",
+      "Completed an intensive 7-month program focused on advanced frontend development. Built several projects using React, Next.js, and TypeScript. mobile development with React Native.",
     technologies: ["React", "Node.js", "NextJs", "TypeScript", "React Native"],
   },
   // {
@@ -118,11 +118,11 @@ export const experiences = [
   // },
   {
     type: "education",
-    title: "Front End Developer Intern",
+    title: "Front End Developer Bootcamp",
     company: "Dive Africa",
     period: "2025",
     description:
-      "Specialized in distributed systems and machine learning. Thesis on scalable microservices architecture.",
+      "Completed an intensive 12-week bootcamp focused on modern frontend development. Built several projects using React, Next.js, and TypeScript.",
     technologies: ["HTML", "CSS", "REACT", "JavaScript"],
   },
   {

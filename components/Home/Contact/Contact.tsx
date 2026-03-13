@@ -15,7 +15,7 @@ const Contact = () => {
         description="Have a project in mind or a suggestion, I'm happy to hear what you have in mind. Feel free to reach out through any of the channels below!"
       />
       <div className="w-[80%] mx-auto">
-        <div className="grid lg:grid-cols-2 max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* contact info */}
           <div>
             <div className="space-y-8">

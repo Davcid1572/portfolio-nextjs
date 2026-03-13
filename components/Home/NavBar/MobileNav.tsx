@@ -11,7 +11,8 @@ const MobileNav: React.FC<mobileProps> = ({ showNav, closeNav }) => {
     <div>
       {/* Overlay */}
       <div
-        className={`fixed ${sideBarOpenClose} inset-0 transform transition-all duration-500 z-1002 bg-black opacity-70 h-screen`}
+        onClick={closeNav}
+        className={`fixed ${sideBarOpenClose}  inset-0 transform transition-all duration-500 z-1002 bg-black opacity-70 h-screen`}
       ></div>
       {/* Mobile Menu */}
       <nav
@@ -20,7 +21,10 @@ const MobileNav: React.FC<mobileProps> = ({ showNav, closeNav }) => {
         {Navlinks.map((link, index) => {
           return (
             <Link key={index} href={link.href}>
-              <p className="text-white w-fit text-[20px] ml-12 border-b-[1.5px]  pb-1 border-white sm:text-[30px]">
+              <p
+                className="text-white w-fit text-[20px] ml-12 border-b-[1.5px]  pb-1 border-white sm:text-[30px] "
+                onClick={closeNav}
+              >
                 {link.name}
               </p>
             </Link>
