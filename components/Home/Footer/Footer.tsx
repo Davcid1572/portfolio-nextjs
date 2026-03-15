@@ -7,7 +7,11 @@ const Footer = () => {
     <footer className="border-t bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-200 py-12">
       <div className="w-[80%] mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <a href="#home" className="text-xl font-bold text-indigo-700">
+          <a
+            href="#home"
+            className="text-xl font-bold text-(--color-digital-blue-700) 
+  dark:text-(--color-digital-blue-300)"
+          >
             {"<Dav/>"}
           </a>
           <div className="flex items-center gap-4">

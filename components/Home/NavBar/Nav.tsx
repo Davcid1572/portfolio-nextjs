@@ -23,7 +23,7 @@ const Nav: React.FC<navProps> = ({ openNav }) => {
 
   return (
     <div
-      className={`transition-all ${navBg ? " dark:bg-gray-800 bg-white shadow-md" : "fixed"} duration-200 h-[12vh] z-100 fixed w-full`}
+      className={`transition-all ${navBg ? "bg-white dark:bg-(--color-digital-blue-950) shadow-md" : "fixed"} duration-200 h-[12vh] z-100 fixed w-full`}
     >
       <div className="flex items-center gap-1 h-full justify-between w-[90%] xl:w-[90%] mx-auto">
         {/* Logo */}
@@ -35,11 +35,11 @@ const Nav: React.FC<navProps> = ({ openNav }) => {
               <Link
                 key={index}
                 href={link.href}
-                className="dark:text-white text-black hover:text-yellow-500 dark:hover:text-yellow-200 font-semibold transition-all duration-200"
+                className="dark:text-white text-black font-semibold transition-all duration-200
+  hover:text-(--color-digital-blue-500)
+  dark:hover:text-(--color-digital-blue-300)"
               >
-                <p className="font-semibold text-black dark:text-white hover:text-yellow-500 dark:hover:text-yellow-200 transition-all duration-200">
-                  {link.name}
-                </p>
+                {link.name}
               </Link>
             );
           })}
@@ -51,7 +51,14 @@ const Nav: React.FC<navProps> = ({ openNav }) => {
           <a
             href="/assets/ifejioforcdavid.pdf"
             target="_blank"
-            className="box-border relative z-20 inline-flex items-center justify-center w-auto px-6 sm:px-8 py-3 overflow-hidden font-bold text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease-in focus:outline-none"
+            className="box-border relative z-20 inline-flex items-center justify-center w-auto
+  px-6 sm:px-8 py-3 overflow-hidden font-bold text-white transition-all duration-300
+  bg-(--color-digital-blue-500)
+  rounded-md cursor-pointer group
+  ring-offset-2 ring-1 ring-(--color-digital-blue-300)
+  hover:bg-(--color-digital-blue-600)
+  hover:ring-offset-(--color-digital-blue-500)
+  ease-in focus:outline-none"
           >
             <span className="relative z-20 flex items-center space-x-2 text-sm">
               <Download className="w-4 h-4" />

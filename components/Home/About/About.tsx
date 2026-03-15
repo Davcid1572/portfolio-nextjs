@@ -5,7 +5,7 @@ import { highlights, stats } from "@/data";
 
 const About = () => {
   return (
-    <div className="py-16 bg-gray-100 dark:bg-gray-900">
+    <div className="py-16 bg-(--color-digital-blue-50) dark:bg-(--color-digital-blue-950)">
       {/* Section Header */}
       <SectionHeading
         title_1="About"
@@ -20,7 +20,7 @@ const About = () => {
           data-aos-anchor-placement="top-center"
           className="relative"
         >
-          <div className="aspect-square bg-gray-500 rounded-2xl overflow-hidden p-2 hover:shadow-2xl">
+          <div className="aspect-square bg-(--color-digital-blue-200) rounded-2xl overflow-hidden p-2 hover:shadow-2xl">
             <Image
               src={"/images/homeImg.png"}
               alt="profile picture"
@@ -57,8 +57,8 @@ const About = () => {
                   key={item.text}
                   className="flex items-center gap-3 text-sm"
                 >
-                  <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center">
-                    <item.icon className="w-4 h-4 text-blue-500" />
+                  <div className="w-8 h-8 rounded-lg bg-(--color-digital-blue-500)/10 flex items-center justify-center">
+                    <item.icon className="w-4 h-4 text-(--color-digital-blue-500)" />
                   </div>
                   <span className="text-muted-foreground ">{item.text}</span>
                 </div>
@@ -77,9 +77,10 @@ const About = () => {
                 data-aos-delay="300"
                 data-aos-anchor-placement="top-center"
                 key={stat.label}
-                className="bg-white dark:bg-gray-800 shadow rounded-xl p-6 text-center"
+                className="bg-white dark:bg-(--color-digital-blue-900) shadow rounded-xl p-6 text-center
+transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
-                <div className="text-3xl md:text-4xl font-bold text-pink-600 mb-2 ">
+                <div className="text-3xl md:text-4xl font-bold text-(--color-digital-blue-600) dark:text-(--color-digital-blue-300) mb-2">
                   {stat.value}
                 </div>
                 <div className="text-sm text-muted-foreground">

@@ -12,11 +12,11 @@ const MobileNav: React.FC<mobileProps> = ({ showNav, closeNav }) => {
       {/* Overlay */}
       <div
         onClick={closeNav}
-        className={`fixed ${sideBarOpenClose}  inset-0 transform transition-all duration-500 z-1002 bg-black opacity-70 h-screen`}
+        className={`fixed ${sideBarOpenClose}  inset-0 transform transition-all duration-500 z-1002 bg-(--color-digital-blue-950) opacity-70 h-screen`}
       ></div>
       {/* Mobile Menu */}
       <nav
-        className={`text-white ${sideBarOpenClose} fixed flex justify-center flex-col h-full transform transition-all delay-300 w-[80%] sm:w-[60%] bg-purple-700 space-y-6 z-1050`}
+        className={`text-white ${sideBarOpenClose} fixed flex justify-center flex-col h-full transform transition-all delay-300 w-[80%] sm:w-[60%] bg-(--color-digital-blue-700) space-y-6 z-1050`}
       >
         {Navlinks.map((link, index) => {
           return (
