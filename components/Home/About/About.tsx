@@ -26,7 +26,7 @@ const About = () => {
               alt="profile picture"
               width={700}
               height={700}
-              className="w-full h-full object-center rounded-xl "
+              className="w-full  object-cover rounded-xl "
             />
           </div>
         </div>

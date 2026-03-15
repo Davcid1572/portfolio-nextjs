@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfolio Next.js
 
-## Getting Started
+Welcome to my **personal portfolio** built with Next.js!  
+Explore my work, skills, and projects live at:  
+👉 [ifejiofordavid-portfolio.vercel.app](https://ifejiofordavid-portfolio.vercel.app/)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Project Process
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Project Initialization**
+   - Created a new Next.js app using `npx create-next-app`
+   - Set up folder structure for pages, components, and assets
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Design & Layout**
+   - Crafted responsive layouts with CSS modules and Tailwind CSS
+   - Designed custom components: Navbar, Hero, Projects, Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Content Integration**
+   - Added project details, skills, and contact info
+   - Optimized images and assets for performance
 
-## Learn More
+4. **Deployment**
+   - Deployed on [Vercel](https://vercel.com/)
+   - Configured custom domain and environment variables
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Packages Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Package            | Purpose                     |
+| ------------------ | --------------------------- |
+| `next`             | React framework             |
+| `react`            | UI library                  |
+| `tailwindcss`      | Utility-first CSS framework |
+| `@heroicons/react` | Icon set for UI             |
+| `eslint`           | Code linting                |
+| `prettier`         | Code formatting             |
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌟 Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Responsive Design**
+- **Dark Mode Support**
+- **Animated Transitions**
+- **SEO Optimized**
+- **Easy Navigation**
+
+---
+
+## 📸 Screenshots
+
+![Portfolio Screenshot](./public/portfolio-screenshot.png)
+
+---
+
+## 📬 Contact
+
+Feel free to reach out via the contact form on the site!
+
+---
+
+> Built with ❤️ using Next.js and Tailwind CSS.
