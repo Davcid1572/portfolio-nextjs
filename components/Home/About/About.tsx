@@ -22,7 +22,7 @@ const About = () => {
         >
           <div className="aspect-square bg-gray-500 rounded-2xl overflow-hidden p-2 hover:shadow-2xl">
             <Image
-              src={"/images/homeimg.png"}
+              src={"/images/homeImg.png"}
               alt="profile picture"
               width={700}
               height={700}
