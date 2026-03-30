@@ -49,7 +49,7 @@ const Nav: React.FC<navProps> = ({ openNav }) => {
         <div className="flex items-center space-x-4">
           {/* Download Button */}
           <a
-            href="/assets/ifejioforcdavid.pdf"
+            href="/assets/ifejioforchibuikedavid.pdf"
             target="_blank"
             className="box-border relative z-20 inline-flex items-center justify-center w-auto
   px-6 sm:px-8 py-3 overflow-hidden font-bold text-white transition-all duration-300
