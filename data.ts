@@ -161,20 +161,26 @@ export const projects = [
   {
     title: "E-Commerce Platform",
     description:
-      "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
+      "This project simulates a real-world e-commerce platform where users can, Browse products fetched from an external API, Filter products by category, Search for products globally Sort products by price",
     image: "/images/p1.jpg",
-    techStack: ["Next.js", "TypeScript", "Stripe", "MongoDB"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    techStack: ["Next.js", "TypeScript", "Redux", "API"],
+    demoUrl: "http://alx-project-nexus-two-beta.vercel.app/",
+    githubUrl:
+      "https://github.com/Davcid1572/alx-project-nexus/tree/main/e-commerce-product-catalog-app",
   },
   {
-    title: "Task Management App",
+    title: "AskTechBro 👨🏿‍💻",
     description:
-      "Collaborative project management tool with real-time updates, Kanban boards, and team analytics.",
-    image: "/images/p2.jpg",
-    techStack: ["React", "Node.js", "Socket.io", "PostgreSQL"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "An AI-powered chat app featuring TechBro — your senior African tech mentor. Ask anything about code, tech careers, or software concepts and get real, no-nonsense answers with African context and flavor.",
+    image: "/images/p2.png",
+    techStack: [
+      "Nextjs",
+      "TypeScript",
+      "TailwindCss",
+      "Groq API (llama-3.3-70b-versatile)",
+    ],
+    demoUrl: "https://asktechbro.vercel.app/",
+    githubUrl: "https://github.com/Davcid1572/asktechbro",
   },
   {
     title: "AI Content Generator",
