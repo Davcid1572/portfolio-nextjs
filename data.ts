@@ -189,35 +189,35 @@ export const projects = [
     image: "/images/p3.jpg",
     techStack: ["React", "Python", "OpenAI", "FastAPI"],
     demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/Davcid1572",
   },
-  {
-    title: "Real Estate Platform",
-    description:
-      "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
-    image: "/images/p4.jpg",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Fitness Tracker",
-    description:
-      "Cross-platform mobile app for workout tracking, nutrition logging, and progress analytics.",
-    image: "/images/p5.jpg",
-    techStack: ["React Native", "Firebase", "Node.js", "Charts"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Learning Management System",
-    description:
-      "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
-    image: "/images/p6.jpg",
-    techStack: ["Next.js", "Prisma", "AWS S3", "Stripe"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
+  // {
+  //   title: "Real Estate Platform",
+  //   description:
+  //     "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
+  //   image: "/images/p4.jpg",
+  //   techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
+  //   demoUrl: "https://example.com",
+  //   githubUrl: "https://github.com",
+  // },
+  // {
+  //   title: "Fitness Tracker",
+  //   description:
+  //     "Cross-platform mobile app for workout tracking, nutrition logging, and progress analytics.",
+  //   image: "/images/p5.jpg",
+  //   techStack: ["React Native", "Firebase", "Node.js", "Charts"],
+  //   demoUrl: "https://example.com",
+  //   githubUrl: "https://github.com",
+  // },
+  // {
+  //   title: "Learning Management System",
+  //   description:
+  //     "Educational platform with video streaming, quizzes, progress tracking, and certificates.",
+  //   image: "/images/p6.jpg",
+  //   techStack: ["Next.js", "Prisma", "AWS S3", "Stripe"],
+  //   demoUrl: "https://example.com",
+  //   githubUrl: "https://github.com",
+  // }
 ];
 
 export const skillCategories = [
