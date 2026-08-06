@@ -186,7 +186,7 @@ export const projects = [
     title: "AI Document Summarizer 📄",
     description:
       "A full-stack AI app that summarizes any text or PDF document instantly.",
-    image: "/images/p8.jpg",
+    image: "/images/p8.png",
     techStack: [
       "NextJs",
       "TypeScript",
@@ -201,7 +201,7 @@ export const projects = [
     title: "AI Image Caption Generator 🖼️",
     description:
       "Upload any image and get an instant AI-generated caption, alt text, or creative description powered by a multimodal vision AI model.",
-    image: "/images/p7.jpg",
+    image: "/images/p7.png",
     techStack: ["Next.js", "TypeScript", "Groq API(qwen)", "Maps API"],
     demoUrl: "https://ai-image-caption-five.vercel.app/",
     githubUrl: "https://github.com/Davcid1572/ai-image-caption",
