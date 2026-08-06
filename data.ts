@@ -183,23 +183,29 @@ export const projects = [
     githubUrl: "https://github.com/Davcid1572/asktechbro",
   },
   {
-    title: "AI Content Generator",
+    title: "AI Document Summarizer",
     description:
-      "GPT-powered content creation platform for marketers with templates and workflow automation.",
-    image: "/images/p3.jpg",
-    techStack: ["React", "Python", "OpenAI", "FastAPI"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com/Davcid1572",
+      "A full-stack AI app that summarizes any text or PDF document instantly.",
+    image: "/images/p8.jpg",
+    techStack: [
+      "NextJs",
+      "TypeScript",
+      "Groq API(llama-3.3-70b-versatile-preview)",
+      "TailwindCss",
+    ],
+    demoUrl: "https://ai-summarizer-ten-iota.vercel.app/",
+    githubUrl:
+      "https://github.com/Davcid1572/ai-summarizer#ai-document-summarizer-",
   },
-  // {
-  //   title: "Real Estate Platform",
-  //   description:
-  //     "Property listing platform with virtual tours, mortgage calculator, and agent booking system.",
-  //   image: "/images/p4.jpg",
-  //   techStack: ["Vue.js", "Node.js", "MongoDB", "Maps API"],
-  //   demoUrl: "https://example.com",
-  //   githubUrl: "https://github.com",
-  // },
+  {
+    title: "AI Image Caption Generator",
+    description:
+      "Upload any image and get an instant AI-generated caption, alt text, or creative description powered by a multimodal vision AI model.",
+    image: "/images/p7.jpg",
+    techStack: ["Next.js", "TypeScript", "Groq API(qwen)", "Maps API"],
+    demoUrl: "https://ai-image-caption-five.vercel.app/",
+    githubUrl: "https://github.com/Davcid1572/ai-image-caption",
+  },
   // {
   //   title: "Fitness Tracker",
   //   description:
