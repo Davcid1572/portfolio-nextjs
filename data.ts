@@ -183,7 +183,7 @@ export const projects = [
     githubUrl: "https://github.com/Davcid1572/asktechbro",
   },
   {
-    title: "AI Document Summarizer",
+    title: "AI Document Summarizer 📄",
     description:
       "A full-stack AI app that summarizes any text or PDF document instantly.",
     image: "/images/p8.jpg",
@@ -198,7 +198,7 @@ export const projects = [
       "https://github.com/Davcid1572/ai-summarizer#ai-document-summarizer-",
   },
   {
-    title: "AI Image Caption Generator",
+    title: "AI Image Caption Generator 🖼️",
     description:
       "Upload any image and get an instant AI-generated caption, alt text, or creative description powered by a multimodal vision AI model.",
     image: "/images/p7.jpg",
